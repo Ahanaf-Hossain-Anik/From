@@ -62,7 +62,7 @@ textarea:valid ~ label {
 }
 .left-side {
   display: flex;
-  width: 75vh;
+  width: 75%;
   align-items: center;
   justify-content: space-between;
   text-indent: 10px;
