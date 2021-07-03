@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .monkey {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(26, 6, 6)),
     url(images.jpg);
@@ -17,7 +17,7 @@
   text-indent: 10px;
 }
 form {
-  width: 90%;
+  width: 100vw;
   max-width: 600px;
 }
 .input {
@@ -65,7 +65,7 @@ textarea:valid ~ label {
   align-items: center;
   justify-content: space-between;
   text-indent: 10px;
-  width: 63vh;
+  width: 100%;
 }
 .left-side.input {
   flex-basis: 48%;
