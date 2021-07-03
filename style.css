@@ -65,7 +65,7 @@ textarea:valid ~ label {
   align-items: center;
   justify-content: space-between;
   text-indent: 10px;
-  width: 75%;
+  width: 63vh;
 }
 .left-side.input {
   flex-basis: 48%;
