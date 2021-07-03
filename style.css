@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .monkey {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(26, 6, 6)),
     url(images.jpg);
@@ -17,7 +17,7 @@
   text-indent: 10px;
 }
 form {
-  width: 100vw;
+  width: 100%;
   max-width: 600px;
 }
 .input {
@@ -26,6 +26,7 @@ form {
 }
 input,
 textarea {
+  border-radius: 4px;
   width: 100%;
   padding: 10px;
   outline: 0;
@@ -45,6 +46,7 @@ label {
   transition: 0.3s;
 }
 button {
+  border-radius: 50px;
   padding: 10px 0;
   color: #fff;
   background: transparent;
@@ -65,7 +67,6 @@ textarea:valid ~ label {
   align-items: center;
   justify-content: space-between;
   text-indent: 10px;
-  width: 100%;
 }
 .left-side.input {
   flex-basis: 48%;
